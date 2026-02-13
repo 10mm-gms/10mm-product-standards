@@ -1,0 +1,69 @@
+site_name: Product Standards (v0.1)
+site_description: Architectural and Product Standards for the Suite
+repo_url: https://github.com/myorg/product_standards
+edit_uri: edit/main/
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - scheme: default
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - content.code.copy
+    - toc.follow
+
+# disable directory URLs so links work with .md extensions and simple serving
+use_directory_urls: false
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Home: README.md
+  - Planning:
+      - Board: planning/BOARD.md
+      - Requirements: docs/standards/requirements.md
+  - Standards:
+      - Architecture: docs/standards/architecture.md
+      - Infrastructure: docs/standards/infrastructure.md
+      - Style: docs/standards/style.md
+      - API: docs/standards/api-standards.md
+      - Coding: docs/standards/coding-guidelines.md
+      - Testing Traceability: docs/standards/testing-traceability.md
+      - Monitoring: docs/standards/monitoring.md
+      - Security: docs/standards/security.md
+      - Security Testing: docs/standards/security-testing.md
+      - CI/CD: docs/standards/cicd.md
+      - Repository Structure: docs/standards/repository-structure.md
+      - Agile Workflow: docs/standards/agile-workflow.md
+  - Guidance:
+      - Contributing: docs/guidance/contributing.md
+      - Testing: docs/guidance/testing.md
+      - Android Signing: docs/guidance/android-signing.md
+  - Decisions:
+      - Index: docs/decisions/README.md
+  - Blueprints:
+      - PRD: blueprints/prd.md
+      - Makefile: blueprints/Makefile
+      - Pipeline Script: blueprints/build.sh
+      - Python Lint (Ruff): blueprints/ruff.toml

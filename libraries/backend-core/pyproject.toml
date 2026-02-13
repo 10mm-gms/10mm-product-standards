@@ -1,0 +1,45 @@
+[project]
+name = "attono-backend-core"
+version = "0.1.0"
+description = "Shared core logic for 10mm GMS backend services"
+readme = "README.md"
+authors = [
+    { name = "Ian Gibbs", email = "igibbs@cpan.org" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.110.0",
+    "sqlalchemy>=2.0.46",
+    "pyjwt>=2.10.1",
+    "httpx>=0.27.0",
+    "google-auth>=2.47.0",
+    "google-auth-oauthlib>=1.2.4",
+    "boto3>=1.34.0",
+    "markdown2>=2.4.13",
+    "python-json-logger>=4.0.0",
+    "cryptography>=46.0.3",
+    "pydantic-settings>=2.0.0",
+]
+[tool.hatch.build.targets.wheel]
+packages = ["src/attono_backend_core"]
+
+[tool.uv.sources]
+# No sources needed for core library itself
+
+[build-system]
+requires = ["uv_build>=0.9.27,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "B", "I"]
+ignore = ["B008"]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.14",
+]
+
