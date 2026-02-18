@@ -4,12 +4,12 @@ version = "0.1.0"
 description = "Gold Standard blueprint for 10mm GMS applications"
 requires-python = ">=3.12"
 dependencies = [
-    "attono-backend-core",
+    "gms-backend-core",
     "uvicorn>=0.34.0",
 ]
 
 [tool.uv.sources]
-attono-backend-core = { path = "../../libraries/backend-core" }
+gms-backend-core = { path = "../../libraries/backend-core" }
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/backend"]

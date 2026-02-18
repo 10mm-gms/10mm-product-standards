@@ -17,6 +17,6 @@
         "vite": "^5.0.0"
     },
     "dependencies": {
-        "attono-ui-core": "file:../../../../libraries/ui-core"
+        "10mm-ui-core": "file:../../../../libraries/ui-core"
     }
 }

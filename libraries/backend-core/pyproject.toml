@@ -1,6 +1,6 @@
 [project]
-name = "attono-backend-core"
-version = "0.1.0"
+name = "gms-backend-core"
+version = "0.1.1"
 description = "Shared core logic for 10mm GMS backend services"
 readme = "README.md"
 authors = [
@@ -21,7 +21,7 @@ dependencies = [
     "pydantic-settings>=2.0.0",
 ]
 [tool.hatch.build.targets.wheel]
-packages = ["src/attono_backend_core"]
+packages = ["src/gms_backend_core"]
 
 [tool.uv.sources]
 # No sources needed for core library itself

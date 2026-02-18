@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from attono_backend_core.logging.config import setup_logging
-from attono_backend_core.config import GmsBackendSettings
+from gms_backend_core.logging.config import setup_logging
+from gms_backend_core.config import GmsBackendSettings
 
 # Initialize shared configuration
 settings = GmsBackendSettings()
