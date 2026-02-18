@@ -3,12 +3,12 @@
 
 <svg
    width="90.903114mm"
-   height="41.619705mm"
-   viewBox="0 0 90.903114 41.619705"
+   height="28.263165mm"
+   viewBox="0 0 90.903114 28.263165"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="10mm-logo.svg"
+   sodipodi:docname="10mm-logo-short.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -36,17 +36,17 @@
     <inkscape:grid
        type="xygrid"
        id="grid1206"
-       originx="-63.149857"
+       originx="-63.149866"
        originy="-44.608575" />
   </sodipodi:namedview>
   <defs
      id="defs2">
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : -106.8803 : 1"
-       inkscape:vp_y="0 : 999.99995 : 0"
-       inkscape:vp_z="210 : -106.8803 : 1"
-       inkscape:persp3d-origin="105 : -156.38029 : 1"
+       inkscape:vp_x="0 : -120.23684 : 1"
+       inkscape:vp_y="0 : 999.99997 : 0"
+       inkscape:vp_z="210.00002 : -120.23684 : 1"
+       inkscape:persp3d-origin="105.00001 : -169.73683 : 1"
        id="perspective1164" />
   </defs>
   <g
@@ -114,13 +114,13 @@
        transform="matrix(0.49473526,0.04962819,-0.04962819,0.49473526,66.864778,35.233387)" />
     <text
        xml:space="preserve"
-       style="font-size:7.05556px;fill:#1a9748;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;fill-opacity:1"
+       style="font-size:7.05556px;fill:#1a9748;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        x="97.693512"
        y="61.26252"
        id="text1318-6"><tspan
          sodipodi:role="line"
          id="tspan1316-2"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#1a9748;stroke-width:0.3;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#1a9748;fill-opacity:1;stroke-width:0.3"
          x="97.693512"
          y="61.26252">10mm</tspan></text>
     <g
@@ -160,24 +160,5 @@
          style="font-size:4.93889px;fill:#cccccc;stroke-width:0.3"
          x="137.41243"
          y="60.503342">11</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#1a9748;fill-opacity:1;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       x="63.846596"
-       y="84.123985"
-       id="text1870"><tspan
-         sodipodi:role="line"
-         id="tspan1868"
-         style="font-size:8.46667px;fill:#1a9748;fill-opacity:1;stroke-width:0.3"
-         x="63.846596"
-         y="84.123985">Garage Management</tspan></text>
-    <path
-       style="fill:#000080;stroke:none;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       d="M 152.58886,75.612881 H 63.83049"
-       id="path1926" />
-    <path
-       style="fill:#1a9748;stroke:#1a9748;stroke-width:0.302013;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;fill-opacity:1;stroke-opacity:1"
-       d="M 64.477097,75.664629 H 152.5442"
-       id="path1928" />
   </g>
 </svg>
