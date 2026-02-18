@@ -1,15 +1,16 @@
+from pydantic import Field
 from pydantic_settings import BaseSettings
 
 
 class GmsBackendSettings(BaseSettings):
     environment: str = "production"
     log_level: str = "INFO"
-    database_url: str
-    secret_key: str
+    database_url: str = Field(..., description="Database connection URL")
+    secret_key: str = Field(..., description="Secret key for JWT signing")
     algorithm: str = "HS256"
     access_token_expire_minutes: int = 60
     refresh_token_expire_days: int = 7
-    allowed_domain: str
+    allowed_domain: str = Field(..., description="Authorized email domain for staff")
     google_client_id: str | None = None
     google_client_secret: str | None = None
     google_scopes: list[str] = [
